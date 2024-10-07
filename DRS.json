@@ -1,0 +1,2466 @@
+{
+    "expand": "schema,names",
+    "startAt": 0,
+    "maxResults": 50,
+    "total": 11,
+    "issues": [
+        {
+            "expand": "operations,versionedRepresentations,customfield_10038.properties,editmeta,changelog,customfield_10039.properties,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10014",
+            "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10014",
+            "key": "DRS-11",
+            "fields": {
+                "statuscategorychangedate": "2024-09-11T13:49:22.185+0100",
+                "fixVersions": [],
+                "resolution": null,
+                "lastViewed": "2024-09-11T16:12:29.294+0100",
+                "customfield_10060": null,
+                "customfield_10061": null,
+                "customfield_10062": null,
+                "customfield_10063": null,
+                "customfield_10064": null,
+                "customfield_10065": null,
+                "customfield_10066": null,
+                "customfield_10067": null,
+                "priority": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "labels": [],
+                "aggregatetimeoriginalestimate": null,
+                "timeestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": null,
+                "status": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/status/10003",
+                    "description": "",
+                    "iconUrl": "https://johnsonactest.atlassian.net/",
+                    "name": "Backlog",
+                    "id": "10003",
+                    "statusCategory": {
+                        "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "customfield_10050": null,
+                "customfield_10051": [],
+                "customfield_10052": null,
+                "customfield_10053": null,
+                "customfield_10054": null,
+                "customfield_10055": null,
+                "customfield_10056": null,
+                "customfield_10057": null,
+                "customfield_10058": null,
+                "customfield_10059": null,
+                "customfield_10049": null,
+                "aggregatetimeestimate": null,
+                "creator": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "customfield_10040": null,
+                "customfield_10041": null,
+                "customfield_10042": [],
+                "customfield_10043": null,
+                "reporter": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "customfield_10044": null,
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10045": null,
+                "customfield_10046": null,
+                "customfield_10047": null,
+                "customfield_10048": null,
+                "customfield_10038": null,
+                "customfield_10039": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-11/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                },
+                "issuetype": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10007",
+                    "id": "10007",
+                    "description": "A problem or error.",
+                    "iconUrl": "https://johnsonactest.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+                    "name": "Bug",
+                    "subtask": false,
+                    "avatarId": 10303,
+                    "hierarchyLevel": 0
+                },
+                "timespent": null,
+                "customfield_10031": null,
+                "project": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/project/10001",
+                    "id": "10001",
+                    "key": "DRS",
+                    "name": "Ultimate Dragon Slaying",
+                    "projectTypeKey": "software",
+                    "simplified": false,
+                    "avatarUrls": {
+                        "48x48": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405",
+                        "24x24": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=small",
+                        "16x16": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=xsmall",
+                        "32x32": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=medium"
+                    }
+                },
+                "customfield_10032": null,
+                "customfield_10033": null,
+                "customfield_10034": null,
+                "aggregatetimespent": null,
+                "customfield_10035": null,
+                "customfield_10037": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-11/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-09-11T13:49:21.821+0100",
+                "customfield_10020": null,
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i0002v:",
+                "updated": "2024-09-11T16:12:34.568+0100",
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "customfield_10007": null,
+                "security": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "summary": "Test PUT API",
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,customfield_10038.properties,editmeta,changelog,customfield_10039.properties,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10013",
+            "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10013",
+            "key": "DRS-10",
+            "fields": {
+                "statuscategorychangedate": "2024-09-11T09:30:58.971+0100",
+                "parent": {
+                    "id": "10010",
+                    "key": "DRS-7",
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10010",
+                    "fields": {
+                        "summary": "Epic test",
+                        "status": {
+                            "self": "https://johnsonactest.atlassian.net/rest/api/3/status/10003",
+                            "description": "",
+                            "iconUrl": "https://johnsonactest.atlassian.net/",
+                            "name": "Backlog",
+                            "id": "10003",
+                            "statusCategory": {
+                                "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/2",
+                                "id": 2,
+                                "key": "new",
+                                "colorName": "blue-gray",
+                                "name": "To Do"
+                            }
+                        },
+                        "priority": {
+                            "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                            "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                            "name": "Medium",
+                            "id": "3"
+                        },
+                        "issuetype": {
+                            "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10000",
+                            "id": "10000",
+                            "description": "A collection of related bugs, stories, and tasks.",
+                            "iconUrl": "https://johnsonactest.atlassian.net/images/icons/issuetypes/epic.svg",
+                            "name": "Epic",
+                            "subtask": false,
+                            "hierarchyLevel": 1
+                        }
+                    }
+                },
+                "fixVersions": [],
+                "resolution": null,
+                "lastViewed": "2024-09-11T15:01:38.993+0100",
+                "customfield_10060": null,
+                "customfield_10061": null,
+                "customfield_10062": null,
+                "customfield_10063": null,
+                "customfield_10064": null,
+                "customfield_10065": null,
+                "customfield_10066": null,
+                "customfield_10067": null,
+                "priority": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "labels": [],
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "status": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/status/10003",
+                    "description": "",
+                    "iconUrl": "https://johnsonactest.atlassian.net/",
+                    "name": "Backlog",
+                    "id": "10003",
+                    "statusCategory": {
+                        "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "customfield_10050": null,
+                "customfield_10051": [],
+                "customfield_10052": null,
+                "customfield_10053": null,
+                "customfield_10054": null,
+                "customfield_10055": null,
+                "customfield_10056": null,
+                "customfield_10057": null,
+                "customfield_10058": null,
+                "customfield_10059": null,
+                "customfield_10049": null,
+                "aggregatetimeestimate": null,
+                "creator": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "customfield_10040": null,
+                "customfield_10041": null,
+                "customfield_10042": [],
+                "customfield_10043": null,
+                "reporter": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "customfield_10044": null,
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10045": null,
+                "customfield_10046": null,
+                "customfield_10047": null,
+                "customfield_10048": null,
+                "customfield_10038": null,
+                "customfield_10039": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-10/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                },
+                "issuetype": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10005",
+                    "id": "10005",
+                    "description": "A small, distinct piece of work.",
+                    "iconUrl": "https://johnsonactest.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "subtask": false,
+                    "avatarId": 10318,
+                    "hierarchyLevel": 0
+                },
+                "timespent": null,
+                "project": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/project/10001",
+                    "id": "10001",
+                    "key": "DRS",
+                    "name": "Ultimate Dragon Slaying",
+                    "projectTypeKey": "software",
+                    "simplified": false,
+                    "avatarUrls": {
+                        "48x48": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405",
+                        "24x24": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=small",
+                        "16x16": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=xsmall",
+                        "32x32": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=medium"
+                    }
+                },
+                "customfield_10031": null,
+                "customfield_10032": null,
+                "customfield_10033": null,
+                "customfield_10034": null,
+                "aggregatetimespent": null,
+                "customfield_10035": null,
+                "customfield_10037": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-10/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-09-11T09:30:58.533+0100",
+                "customfield_10020": [
+                    {
+                        "id": 1,
+                        "name": "Run, Sprint 1",
+                        "state": "active",
+                        "boardId": 3,
+                        "goal": "",
+                        "startDate": "2024-09-04T08:56:33.000Z",
+                        "endDate": "2024-10-02T08:56:00.000Z"
+                    }
+                ],
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i0002n:",
+                "updated": "2024-09-11T10:11:41.163+0100",
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": "DRS-7",
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "customfield_10007": null,
+                "security": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "summary": "Timeline Testing",
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,customfield_10038.properties,editmeta,changelog,customfield_10039.properties,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10012",
+            "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10012",
+            "key": "DRS-9",
+            "fields": {
+                "statuscategorychangedate": "2024-09-11T09:28:30.176+0100",
+                "parent": {
+                    "id": "10010",
+                    "key": "DRS-7",
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10010",
+                    "fields": {
+                        "summary": "Epic test",
+                        "status": {
+                            "self": "https://johnsonactest.atlassian.net/rest/api/3/status/10003",
+                            "description": "",
+                            "iconUrl": "https://johnsonactest.atlassian.net/",
+                            "name": "Backlog",
+                            "id": "10003",
+                            "statusCategory": {
+                                "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/2",
+                                "id": 2,
+                                "key": "new",
+                                "colorName": "blue-gray",
+                                "name": "To Do"
+                            }
+                        },
+                        "priority": {
+                            "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                            "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                            "name": "Medium",
+                            "id": "3"
+                        },
+                        "issuetype": {
+                            "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10000",
+                            "id": "10000",
+                            "description": "A collection of related bugs, stories, and tasks.",
+                            "iconUrl": "https://johnsonactest.atlassian.net/images/icons/issuetypes/epic.svg",
+                            "name": "Epic",
+                            "subtask": false,
+                            "hierarchyLevel": 1
+                        }
+                    }
+                },
+                "fixVersions": [],
+                "resolution": null,
+                "lastViewed": null,
+                "customfield_10060": null,
+                "customfield_10061": null,
+                "customfield_10062": null,
+                "customfield_10063": null,
+                "customfield_10064": null,
+                "customfield_10065": null,
+                "customfield_10066": null,
+                "customfield_10067": null,
+                "priority": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "labels": [],
+                "aggregatetimeoriginalestimate": null,
+                "timeestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": null,
+                "status": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/status/10003",
+                    "description": "",
+                    "iconUrl": "https://johnsonactest.atlassian.net/",
+                    "name": "Backlog",
+                    "id": "10003",
+                    "statusCategory": {
+                        "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "customfield_10050": null,
+                "customfield_10051": [],
+                "customfield_10052": null,
+                "customfield_10053": null,
+                "customfield_10054": null,
+                "customfield_10055": null,
+                "customfield_10056": null,
+                "customfield_10057": null,
+                "customfield_10058": null,
+                "customfield_10059": null,
+                "customfield_10049": null,
+                "aggregatetimeestimate": null,
+                "creator": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "customfield_10040": null,
+                "customfield_10041": null,
+                "customfield_10042": [],
+                "customfield_10043": null,
+                "reporter": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "customfield_10044": null,
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10045": null,
+                "customfield_10046": null,
+                "customfield_10047": null,
+                "customfield_10048": null,
+                "customfield_10038": null,
+                "customfield_10039": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-9/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                },
+                "issuetype": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10004",
+                    "id": "10004",
+                    "description": "Created by Jira Agile - do not edit or delete. Issue type for a user story.",
+                    "iconUrl": "https://johnsonactest.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10300?size=medium",
+                    "name": "Story",
+                    "subtask": false,
+                    "avatarId": 10300,
+                    "hierarchyLevel": 0
+                },
+                "timespent": null,
+                "customfield_10031": null,
+                "project": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/project/10001",
+                    "id": "10001",
+                    "key": "DRS",
+                    "name": "Ultimate Dragon Slaying",
+                    "projectTypeKey": "software",
+                    "simplified": false,
+                    "avatarUrls": {
+                        "48x48": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405",
+                        "24x24": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=small",
+                        "16x16": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=xsmall",
+                        "32x32": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=medium"
+                    }
+                },
+                "customfield_10032": null,
+                "customfield_10033": null,
+                "customfield_10034": null,
+                "aggregatetimespent": null,
+                "customfield_10035": null,
+                "customfield_10036": null,
+                "customfield_10037": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-9/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-09-11T09:28:29.701+0100",
+                "customfield_10020": [
+                    {
+                        "id": 1,
+                        "name": "Run, Sprint 1",
+                        "state": "active",
+                        "boardId": 3,
+                        "goal": "",
+                        "startDate": "2024-09-04T08:56:33.000Z",
+                        "endDate": "2024-10-02T08:56:00.000Z"
+                    }
+                ],
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": "purple",
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i0002f:",
+                "updated": "2024-09-11T10:11:28.185+0100",
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": "DRS-7",
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "customfield_10007": null,
+                "security": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "summary": "Second Testing",
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,customfield_10038.properties,editmeta,changelog,customfield_10039.properties,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10011",
+            "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10011",
+            "key": "DRS-8",
+            "fields": {
+                "statuscategorychangedate": "2024-09-11T17:15:24.421+0100",
+                "parent": {
+                    "id": "10010",
+                    "key": "DRS-7",
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10010",
+                    "fields": {
+                        "summary": "Epic test",
+                        "status": {
+                            "self": "https://johnsonactest.atlassian.net/rest/api/3/status/10003",
+                            "description": "",
+                            "iconUrl": "https://johnsonactest.atlassian.net/",
+                            "name": "Backlog",
+                            "id": "10003",
+                            "statusCategory": {
+                                "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/2",
+                                "id": 2,
+                                "key": "new",
+                                "colorName": "blue-gray",
+                                "name": "To Do"
+                            }
+                        },
+                        "priority": {
+                            "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                            "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                            "name": "Medium",
+                            "id": "3"
+                        },
+                        "issuetype": {
+                            "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10000",
+                            "id": "10000",
+                            "description": "A collection of related bugs, stories, and tasks.",
+                            "iconUrl": "https://johnsonactest.atlassian.net/images/icons/issuetypes/epic.svg",
+                            "name": "Epic",
+                            "subtask": false,
+                            "hierarchyLevel": 1
+                        }
+                    }
+                },
+                "fixVersions": [],
+                "resolution": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/resolution/10000",
+                    "id": "10000",
+                    "description": "Work has been completed on this issue.",
+                    "name": "Done"
+                },
+                "lastViewed": "2024-09-11T17:17:29.131+0100",
+                "customfield_10060": null,
+                "customfield_10061": null,
+                "customfield_10062": null,
+                "customfield_10063": null,
+                "customfield_10064": null,
+                "customfield_10065": null,
+                "customfield_10066": null,
+                "priority": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10067": null,
+                "labels": [],
+                "aggregatetimeoriginalestimate": null,
+                "timeestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "status": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/status/10005",
+                    "description": "",
+                    "iconUrl": "https://johnsonactest.atlassian.net/",
+                    "name": "Done",
+                    "id": "10005",
+                    "statusCategory": {
+                        "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                },
+                "components": [],
+                "customfield_10050": null,
+                "customfield_10051": [],
+                "customfield_10052": null,
+                "customfield_10053": null,
+                "customfield_10054": null,
+                "customfield_10055": null,
+                "customfield_10056": null,
+                "customfield_10057": null,
+                "customfield_10058": null,
+                "customfield_10059": null,
+                "customfield_10049": null,
+                "aggregatetimeestimate": null,
+                "creator": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "customfield_10040": null,
+                "customfield_10041": null,
+                "customfield_10042": [],
+                "reporter": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "customfield_10043": null,
+                "customfield_10044": null,
+                "aggregateprogress": {
+                    "progress": 9000,
+                    "total": 9000,
+                    "percent": 100
+                },
+                "customfield_10045": null,
+                "customfield_10046": null,
+                "customfield_10047": null,
+                "customfield_10048": null,
+                "customfield_10038": null,
+                "customfield_10039": null,
+                "progress": {
+                    "progress": 9000,
+                    "total": 9000,
+                    "percent": 100
+                },
+                "votes": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-8/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                },
+                "issuetype": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10004",
+                    "id": "10004",
+                    "description": "Created by Jira Agile - do not edit or delete. Issue type for a user story.",
+                    "iconUrl": "https://johnsonactest.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10300?size=medium",
+                    "name": "Story",
+                    "subtask": false,
+                    "avatarId": 10300,
+                    "hierarchyLevel": 0
+                },
+                "timespent": 9000,
+                "customfield_10031": null,
+                "project": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/project/10001",
+                    "id": "10001",
+                    "key": "DRS",
+                    "name": "Ultimate Dragon Slaying",
+                    "projectTypeKey": "software",
+                    "simplified": false,
+                    "avatarUrls": {
+                        "48x48": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405",
+                        "24x24": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=small",
+                        "16x16": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=xsmall",
+                        "32x32": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=medium"
+                    }
+                },
+                "customfield_10032": null,
+                "customfield_10033": null,
+                "customfield_10034": null,
+                "aggregatetimespent": 9000,
+                "customfield_10035": null,
+                "customfield_10036": null,
+                "customfield_10037": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": "2024-09-11T17:15:24.410+0100",
+                "workratio": -1,
+                "watches": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-8/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-09-11T09:28:25.501+0100",
+                "customfield_10020": [
+                    {
+                        "id": 1,
+                        "name": "Run, Sprint 1",
+                        "state": "active",
+                        "boardId": 3,
+                        "goal": "",
+                        "startDate": "2024-09-04T08:56:33.000Z",
+                        "endDate": "2024-10-02T08:56:00.000Z"
+                    }
+                ],
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": "3_*:*_1_*:*_27986899_*|*_10003_*:*_1_*:*_32020_*|*_10005_*:*_1_*:*_0",
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": "purple",
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i00027:",
+                "updated": "2024-09-11T17:15:24.420+0100",
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": "DRS-7",
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "summary": "First Testing",
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,customfield_10038.properties,editmeta,changelog,customfield_10039.properties,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10010",
+            "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10010",
+            "key": "DRS-7",
+            "fields": {
+                "statuscategorychangedate": "2024-09-11T09:28:12.584+0100",
+                "fixVersions": [],
+                "resolution": null,
+                "lastViewed": "2024-09-11T09:29:30.919+0100",
+                "customfield_10060": null,
+                "customfield_10061": null,
+                "customfield_10062": null,
+                "customfield_10063": null,
+                "customfield_10064": null,
+                "customfield_10065": null,
+                "customfield_10066": null,
+                "customfield_10067": null,
+                "priority": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "labels": [],
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": null,
+                "status": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/status/10003",
+                    "description": "",
+                    "iconUrl": "https://johnsonactest.atlassian.net/",
+                    "name": "Backlog",
+                    "id": "10003",
+                    "statusCategory": {
+                        "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "customfield_10050": null,
+                "customfield_10051": [],
+                "customfield_10052": null,
+                "customfield_10053": null,
+                "customfield_10054": null,
+                "customfield_10055": null,
+                "customfield_10056": null,
+                "customfield_10057": null,
+                "customfield_10058": null,
+                "customfield_10059": null,
+                "customfield_10049": null,
+                "aggregatetimeestimate": null,
+                "creator": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "customfield_10040": null,
+                "customfield_10041": null,
+                "customfield_10042": [],
+                "reporter": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "customfield_10043": null,
+                "aggregateprogress": {
+                    "progress": 9000,
+                    "total": 9000,
+                    "percent": 100
+                },
+                "customfield_10044": null,
+                "customfield_10045": null,
+                "customfield_10046": null,
+                "customfield_10047": null,
+                "customfield_10048": null,
+                "customfield_10038": null,
+                "customfield_10039": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-7/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                },
+                "issuetype": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10000",
+                    "id": "10000",
+                    "description": "A collection of related bugs, stories, and tasks.",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/issuetypes/epic.svg",
+                    "name": "Epic",
+                    "subtask": false,
+                    "hierarchyLevel": 1
+                },
+                "timespent": null,
+                "customfield_10031": null,
+                "project": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/project/10001",
+                    "id": "10001",
+                    "key": "DRS",
+                    "name": "Ultimate Dragon Slaying",
+                    "projectTypeKey": "software",
+                    "simplified": false,
+                    "avatarUrls": {
+                        "48x48": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405",
+                        "24x24": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=small",
+                        "16x16": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=xsmall",
+                        "32x32": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=medium"
+                    }
+                },
+                "customfield_10032": null,
+                "customfield_10033": null,
+                "customfield_10034": null,
+                "aggregatetimespent": 9000,
+                "customfield_10035": null,
+                "customfield_10036": null,
+                "customfield_10037": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-7/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-09-11T09:28:12.076+0100",
+                "customfield_10020": null,
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": "purple",
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i0001z:",
+                "updated": "2024-09-11T10:09:29.480+0100",
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10011": "Epic test",
+                "customfield_10012": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/customFieldOption/10016",
+                    "value": "To Do",
+                    "id": "10016"
+                },
+                "customfield_10013": "ghx-label-7",
+                "customfield_10014": null,
+                "customfield_10015": "2024-09-14",
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "summary": "Epic test",
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": "2024-10-18"
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,customfield_10038.properties,editmeta,changelog,customfield_10039.properties,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10009",
+            "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10009",
+            "key": "DRS-6",
+            "fields": {
+                "statuscategorychangedate": "2024-09-11T09:22:25.429+0100",
+                "fixVersions": [],
+                "resolution": null,
+                "lastViewed": "2024-09-11T09:23:44.610+0100",
+                "customfield_10060": null,
+                "customfield_10061": null,
+                "customfield_10062": null,
+                "customfield_10063": null,
+                "customfield_10064": null,
+                "customfield_10065": null,
+                "customfield_10066": null,
+                "customfield_10067": null,
+                "priority": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "labels": [],
+                "aggregatetimeoriginalestimate": null,
+                "timeestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "status": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/status/3",
+                    "description": "This issue is being actively worked on at the moment by the assignee.",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/statuses/inprogress.png",
+                    "name": "In Progress",
+                    "id": "3",
+                    "statusCategory": {
+                        "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "In Progress"
+                    }
+                },
+                "components": [],
+                "customfield_10050": null,
+                "customfield_10051": [],
+                "customfield_10052": null,
+                "customfield_10053": null,
+                "customfield_10054": null,
+                "customfield_10055": null,
+                "customfield_10056": null,
+                "customfield_10057": null,
+                "customfield_10058": null,
+                "customfield_10059": null,
+                "customfield_10049": null,
+                "aggregatetimeestimate": null,
+                "creator": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "customfield_10040": null,
+                "customfield_10041": null,
+                "customfield_10042": [],
+                "reporter": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "customfield_10043": null,
+                "aggregateprogress": {
+                    "progress": 43200,
+                    "total": 43200,
+                    "percent": 100
+                },
+                "customfield_10044": null,
+                "customfield_10045": null,
+                "customfield_10046": null,
+                "customfield_10047": null,
+                "customfield_10048": null,
+                "customfield_10038": null,
+                "customfield_10039": null,
+                "progress": {
+                    "progress": 43200,
+                    "total": 43200,
+                    "percent": 100
+                },
+                "votes": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-6/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                },
+                "issuetype": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10005",
+                    "id": "10005",
+                    "description": "A small, distinct piece of work.",
+                    "iconUrl": "https://johnsonactest.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "subtask": false,
+                    "avatarId": 10318,
+                    "hierarchyLevel": 0
+                },
+                "timespent": 43200,
+                "project": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/project/10001",
+                    "id": "10001",
+                    "key": "DRS",
+                    "name": "Ultimate Dragon Slaying",
+                    "projectTypeKey": "software",
+                    "simplified": false,
+                    "avatarUrls": {
+                        "48x48": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405",
+                        "24x24": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=small",
+                        "16x16": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=xsmall",
+                        "32x32": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=medium"
+                    }
+                },
+                "customfield_10031": null,
+                "customfield_10032": null,
+                "customfield_10033": null,
+                "aggregatetimespent": 43200,
+                "customfield_10034": null,
+                "customfield_10035": null,
+                "customfield_10037": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-6/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-09-11T09:22:25.081+0100",
+                "customfield_10020": [
+                    {
+                        "id": 1,
+                        "name": "Run, Sprint 1",
+                        "state": "active",
+                        "boardId": 3,
+                        "goal": "",
+                        "startDate": "2024-09-04T08:56:33.000Z",
+                        "endDate": "2024-10-02T08:56:00.000Z"
+                    }
+                ],
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i0001r:",
+                "updated": "2024-09-11T09:25:18.839+0100",
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "summary": "Testing Task",
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,customfield_10038.properties,editmeta,changelog,customfield_10039.properties,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10004",
+            "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10004",
+            "key": "DRS-5",
+            "fields": {
+                "statuscategorychangedate": "2024-09-04T10:14:02.673+0100",
+                "fixVersions": [],
+                "resolution": null,
+                "lastViewed": "2024-09-11T09:54:08.196+0100",
+                "customfield_10060": null,
+                "customfield_10061": null,
+                "customfield_10062": null,
+                "customfield_10063": null,
+                "customfield_10064": null,
+                "customfield_10065": null,
+                "customfield_10066": null,
+                "priority": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10067": null,
+                "labels": [],
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": null,
+                "status": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/status/10003",
+                    "description": "",
+                    "iconUrl": "https://johnsonactest.atlassian.net/",
+                    "name": "Backlog",
+                    "id": "10003",
+                    "statusCategory": {
+                        "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "customfield_10050": null,
+                "customfield_10051": [],
+                "customfield_10052": null,
+                "customfield_10053": null,
+                "customfield_10054": null,
+                "customfield_10055": null,
+                "customfield_10056": null,
+                "customfield_10057": null,
+                "customfield_10058": null,
+                "customfield_10059": null,
+                "customfield_10049": null,
+                "aggregatetimeestimate": null,
+                "creator": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "customfield_10040": null,
+                "customfield_10041": null,
+                "customfield_10042": [],
+                "reporter": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "customfield_10043": null,
+                "customfield_10044": null,
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10045": null,
+                "customfield_10046": null,
+                "customfield_10047": null,
+                "customfield_10048": null,
+                "customfield_10038": null,
+                "customfield_10039": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-5/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                },
+                "issuetype": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10000",
+                    "id": "10000",
+                    "description": "A collection of related bugs, stories, and tasks.",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/issuetypes/epic.svg",
+                    "name": "Epic",
+                    "subtask": false,
+                    "hierarchyLevel": 1
+                },
+                "timespent": null,
+                "project": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/project/10001",
+                    "id": "10001",
+                    "key": "DRS",
+                    "name": "Ultimate Dragon Slaying",
+                    "projectTypeKey": "software",
+                    "simplified": false,
+                    "avatarUrls": {
+                        "48x48": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405",
+                        "24x24": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=small",
+                        "16x16": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=xsmall",
+                        "32x32": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=medium"
+                    }
+                },
+                "customfield_10031": null,
+                "customfield_10032": null,
+                "customfield_10033": null,
+                "customfield_10034": null,
+                "aggregatetimespent": null,
+                "customfield_10035": null,
+                "customfield_10036": null,
+                "customfield_10037": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-5/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-09-04T10:14:02.084+0100",
+                "customfield_10020": null,
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": "dark_purple",
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i0000v:",
+                "updated": "2024-09-11T09:44:26.192+0100",
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10011": null,
+                "customfield_10012": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/customFieldOption/10016",
+                    "value": "To Do",
+                    "id": "10016"
+                },
+                "customfield_10013": "ghx-label-8",
+                "customfield_10014": null,
+                "customfield_10015": "2024-09-05",
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "summary": "Build the Millennium Falcon",
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": "2024-10-08"
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,customfield_10038.properties,editmeta,changelog,customfield_10039.properties,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10003",
+            "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10003",
+            "key": "DRS-4",
+            "fields": {
+                "statuscategorychangedate": "2024-09-04T09:55:08.947+0100",
+                "fixVersions": [],
+                "resolution": null,
+                "lastViewed": null,
+                "customfield_10060": null,
+                "customfield_10061": null,
+                "customfield_10062": null,
+                "customfield_10063": null,
+                "customfield_10064": null,
+                "customfield_10065": null,
+                "customfield_10066": null,
+                "customfield_10067": null,
+                "priority": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "labels": [],
+                "aggregatetimeoriginalestimate": null,
+                "timeestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": null,
+                "status": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/status/10003",
+                    "description": "",
+                    "iconUrl": "https://johnsonactest.atlassian.net/",
+                    "name": "Backlog",
+                    "id": "10003",
+                    "statusCategory": {
+                        "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "customfield_10050": null,
+                "customfield_10051": [],
+                "customfield_10052": null,
+                "customfield_10053": null,
+                "customfield_10054": null,
+                "customfield_10055": null,
+                "customfield_10056": null,
+                "customfield_10057": null,
+                "customfield_10058": null,
+                "customfield_10059": null,
+                "customfield_10049": null,
+                "aggregatetimeestimate": null,
+                "creator": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "customfield_10040": null,
+                "customfield_10041": null,
+                "customfield_10042": [],
+                "customfield_10043": null,
+                "reporter": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "customfield_10044": null,
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10045": null,
+                "customfield_10046": null,
+                "customfield_10047": null,
+                "customfield_10048": null,
+                "customfield_10038": null,
+                "customfield_10039": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-4/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                },
+                "issuetype": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10005",
+                    "id": "10005",
+                    "description": "A small, distinct piece of work.",
+                    "iconUrl": "https://johnsonactest.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "subtask": false,
+                    "avatarId": 10318,
+                    "hierarchyLevel": 0
+                },
+                "timespent": null,
+                "project": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/project/10001",
+                    "id": "10001",
+                    "key": "DRS",
+                    "name": "Ultimate Dragon Slaying",
+                    "projectTypeKey": "software",
+                    "simplified": false,
+                    "avatarUrls": {
+                        "48x48": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405",
+                        "24x24": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=small",
+                        "16x16": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=xsmall",
+                        "32x32": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=medium"
+                    }
+                },
+                "customfield_10031": null,
+                "customfield_10032": null,
+                "customfield_10033": null,
+                "customfield_10034": null,
+                "aggregatetimespent": null,
+                "customfield_10035": null,
+                "customfield_10037": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-4/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-09-04T09:55:08.700+0100",
+                "customfield_10020": [
+                    {
+                        "id": 1,
+                        "name": "Run, Sprint 1",
+                        "state": "active",
+                        "boardId": 3,
+                        "goal": "",
+                        "startDate": "2024-09-04T08:56:33.000Z",
+                        "endDate": "2024-10-02T08:56:00.000Z"
+                    }
+                ],
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i0000n:",
+                "updated": "2024-09-04T09:55:57.236+0100",
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "summary": "Fourth issue",
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,customfield_10038.properties,editmeta,changelog,customfield_10039.properties,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10002",
+            "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10002",
+            "key": "DRS-3",
+            "fields": {
+                "statuscategorychangedate": "2024-09-04T09:54:35.650+0100",
+                "fixVersions": [],
+                "resolution": null,
+                "lastViewed": null,
+                "customfield_10060": null,
+                "customfield_10061": null,
+                "customfield_10062": null,
+                "customfield_10063": null,
+                "customfield_10064": null,
+                "customfield_10065": null,
+                "customfield_10066": null,
+                "priority": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10067": null,
+                "labels": [],
+                "aggregatetimeoriginalestimate": null,
+                "timeestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": null,
+                "status": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/status/10003",
+                    "description": "",
+                    "iconUrl": "https://johnsonactest.atlassian.net/",
+                    "name": "Backlog",
+                    "id": "10003",
+                    "statusCategory": {
+                        "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "customfield_10050": null,
+                "customfield_10051": [],
+                "customfield_10052": null,
+                "customfield_10053": null,
+                "customfield_10054": null,
+                "customfield_10055": null,
+                "customfield_10056": null,
+                "customfield_10057": null,
+                "customfield_10058": null,
+                "customfield_10059": null,
+                "customfield_10049": null,
+                "aggregatetimeestimate": null,
+                "creator": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "customfield_10040": null,
+                "customfield_10041": null,
+                "customfield_10042": [],
+                "reporter": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "customfield_10043": null,
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10044": null,
+                "customfield_10045": null,
+                "customfield_10046": null,
+                "customfield_10047": null,
+                "customfield_10048": null,
+                "customfield_10038": null,
+                "customfield_10039": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-3/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                },
+                "issuetype": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10005",
+                    "id": "10005",
+                    "description": "A small, distinct piece of work.",
+                    "iconUrl": "https://johnsonactest.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "subtask": false,
+                    "avatarId": 10318,
+                    "hierarchyLevel": 0
+                },
+                "timespent": null,
+                "customfield_10031": null,
+                "project": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/project/10001",
+                    "id": "10001",
+                    "key": "DRS",
+                    "name": "Ultimate Dragon Slaying",
+                    "projectTypeKey": "software",
+                    "simplified": false,
+                    "avatarUrls": {
+                        "48x48": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405",
+                        "24x24": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=small",
+                        "16x16": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=xsmall",
+                        "32x32": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=medium"
+                    }
+                },
+                "customfield_10032": null,
+                "customfield_10033": null,
+                "aggregatetimespent": null,
+                "customfield_10034": null,
+                "customfield_10035": null,
+                "customfield_10037": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-3/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-09-04T09:54:35.388+0100",
+                "customfield_10020": [
+                    {
+                        "id": 1,
+                        "name": "Run, Sprint 1",
+                        "state": "active",
+                        "boardId": 3,
+                        "goal": "",
+                        "startDate": "2024-09-04T08:56:33.000Z",
+                        "endDate": "2024-10-02T08:56:00.000Z"
+                    }
+                ],
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i0000f:",
+                "updated": "2024-09-04T09:55:55.290+0100",
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "customfield_10007": null,
+                "security": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "summary": "Third issue",
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,customfield_10038.properties,editmeta,changelog,customfield_10039.properties,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10001",
+            "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10001",
+            "key": "DRS-2",
+            "fields": {
+                "statuscategorychangedate": "2024-09-04T09:54:20.128+0100",
+                "parent": {
+                    "id": "10004",
+                    "key": "DRS-5",
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10004",
+                    "fields": {
+                        "summary": "Build the Millennium Falcon",
+                        "status": {
+                            "self": "https://johnsonactest.atlassian.net/rest/api/3/status/10003",
+                            "description": "",
+                            "iconUrl": "https://johnsonactest.atlassian.net/",
+                            "name": "Backlog",
+                            "id": "10003",
+                            "statusCategory": {
+                                "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/2",
+                                "id": 2,
+                                "key": "new",
+                                "colorName": "blue-gray",
+                                "name": "To Do"
+                            }
+                        },
+                        "priority": {
+                            "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                            "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                            "name": "Medium",
+                            "id": "3"
+                        },
+                        "issuetype": {
+                            "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10000",
+                            "id": "10000",
+                            "description": "A collection of related bugs, stories, and tasks.",
+                            "iconUrl": "https://johnsonactest.atlassian.net/images/icons/issuetypes/epic.svg",
+                            "name": "Epic",
+                            "subtask": false,
+                            "hierarchyLevel": 1
+                        }
+                    }
+                },
+                "fixVersions": [],
+                "resolution": null,
+                "lastViewed": "2024-09-11T10:12:40.583+0100",
+                "customfield_10060": null,
+                "customfield_10061": null,
+                "customfield_10062": null,
+                "customfield_10063": null,
+                "customfield_10064": null,
+                "customfield_10065": null,
+                "customfield_10066": null,
+                "customfield_10067": null,
+                "priority": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "labels": [],
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": null,
+                "status": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/status/10004",
+                    "description": "",
+                    "iconUrl": "https://johnsonactest.atlassian.net/",
+                    "name": "Selected for Development",
+                    "id": "10004",
+                    "statusCategory": {
+                        "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "customfield_10050": null,
+                "customfield_10051": [],
+                "customfield_10052": null,
+                "customfield_10053": null,
+                "customfield_10054": null,
+                "customfield_10055": null,
+                "customfield_10056": null,
+                "customfield_10057": null,
+                "customfield_10058": null,
+                "customfield_10059": null,
+                "customfield_10049": null,
+                "aggregatetimeestimate": null,
+                "creator": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "customfield_10040": null,
+                "customfield_10041": null,
+                "customfield_10042": [],
+                "reporter": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "customfield_10043": null,
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10044": null,
+                "customfield_10045": null,
+                "customfield_10046": null,
+                "customfield_10047": null,
+                "customfield_10048": null,
+                "customfield_10038": null,
+                "customfield_10039": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-2/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                },
+                "issuetype": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10005",
+                    "id": "10005",
+                    "description": "A small, distinct piece of work.",
+                    "iconUrl": "https://johnsonactest.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "subtask": false,
+                    "avatarId": 10318,
+                    "hierarchyLevel": 0
+                },
+                "timespent": null,
+                "customfield_10031": null,
+                "project": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/project/10001",
+                    "id": "10001",
+                    "key": "DRS",
+                    "name": "Ultimate Dragon Slaying",
+                    "projectTypeKey": "software",
+                    "simplified": false,
+                    "avatarUrls": {
+                        "48x48": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405",
+                        "24x24": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=small",
+                        "16x16": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=xsmall",
+                        "32x32": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=medium"
+                    }
+                },
+                "customfield_10032": null,
+                "customfield_10033": null,
+                "aggregatetimespent": null,
+                "customfield_10034": null,
+                "customfield_10035": null,
+                "customfield_10037": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-2/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-09-04T09:54:19.860+0100",
+                "customfield_10020": [
+                    {
+                        "id": 1,
+                        "name": "Run, Sprint 1",
+                        "state": "active",
+                        "boardId": 3,
+                        "goal": "",
+                        "startDate": "2024-09-04T08:56:33.000Z",
+                        "endDate": "2024-10-02T08:56:00.000Z"
+                    }
+                ],
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i00007:",
+                "updated": "2024-09-11T09:27:25.656+0100",
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": "DRS-5",
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "customfield_10007": null,
+                "security": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "summary": "Second issue",
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,customfield_10038.properties,editmeta,changelog,customfield_10039.properties,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10000",
+            "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/10000",
+            "key": "DRS-1",
+            "fields": {
+                "statuscategorychangedate": "2024-09-11T09:21:41.494+0100",
+                "fixVersions": [],
+                "resolution": null,
+                "lastViewed": "2024-09-11T09:23:38.594+0100",
+                "customfield_10060": null,
+                "customfield_10061": null,
+                "customfield_10062": null,
+                "customfield_10063": null,
+                "customfield_10064": null,
+                "customfield_10065": null,
+                "customfield_10066": null,
+                "customfield_10067": null,
+                "priority": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "labels": [],
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "status": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/status/3",
+                    "description": "This issue is being actively worked on at the moment by the assignee.",
+                    "iconUrl": "https://johnsonactest.atlassian.net/images/icons/statuses/inprogress.png",
+                    "name": "In Progress",
+                    "id": "3",
+                    "statusCategory": {
+                        "self": "https://johnsonactest.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "In Progress"
+                    }
+                },
+                "components": [],
+                "customfield_10050": null,
+                "customfield_10051": [],
+                "customfield_10052": null,
+                "customfield_10053": null,
+                "customfield_10054": null,
+                "customfield_10055": null,
+                "customfield_10056": null,
+                "customfield_10057": null,
+                "customfield_10058": null,
+                "customfield_10059": null,
+                "customfield_10049": null,
+                "aggregatetimeestimate": null,
+                "creator": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "customfield_10040": null,
+                "customfield_10041": null,
+                "customfield_10042": [],
+                "customfield_10043": null,
+                "reporter": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/user?accountId=712020%3A1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "accountId": "712020:1f1bb712-1001-44a2-9b7b-92cc3e01b09e",
+                    "emailAddress": "johnson.ting@automation-consultants.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/3d6a13fc56c94d8cea42cbadd78d2256?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJT-4.png"
+                    },
+                    "displayName": "Johnson Ting",
+                    "active": true,
+                    "timeZone": "Europe/London",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10044": null,
+                "customfield_10045": null,
+                "customfield_10046": null,
+                "customfield_10047": null,
+                "customfield_10048": null,
+                "customfield_10038": null,
+                "customfield_10039": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-1/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                },
+                "issuetype": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issuetype/10005",
+                    "id": "10005",
+                    "description": "A small, distinct piece of work.",
+                    "iconUrl": "https://johnsonactest.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "subtask": false,
+                    "avatarId": 10318,
+                    "hierarchyLevel": 0
+                },
+                "timespent": null,
+                "customfield_10031": null,
+                "project": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/project/10001",
+                    "id": "10001",
+                    "key": "DRS",
+                    "name": "Ultimate Dragon Slaying",
+                    "projectTypeKey": "software",
+                    "simplified": false,
+                    "avatarUrls": {
+                        "48x48": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405",
+                        "24x24": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=small",
+                        "16x16": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=xsmall",
+                        "32x32": "https://johnsonactest.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10405?size=medium"
+                    }
+                },
+                "customfield_10032": null,
+                "customfield_10033": null,
+                "aggregatetimespent": null,
+                "customfield_10034": null,
+                "customfield_10035": null,
+                "customfield_10037": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://johnsonactest.atlassian.net/rest/api/3/issue/DRS-1/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-09-04T09:44:38.127+0100",
+                "customfield_10020": [
+                    {
+                        "id": 1,
+                        "name": "Run, Sprint 1",
+                        "state": "active",
+                        "boardId": 3,
+                        "goal": "",
+                        "startDate": "2024-09-04T08:56:33.000Z",
+                        "endDate": "2024-10-02T08:56:00.000Z"
+                    }
+                ],
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|hzzzzz:",
+                "updated": "2024-09-11T09:21:41.494+0100",
+                "timeoriginalestimate": null,
+                "description": {
+                    "type": "doc",
+                    "version": 1,
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "This is our first work item to test creating an issue"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "summary": "First work item",
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null
+            }
+        }
+    ]
+}
